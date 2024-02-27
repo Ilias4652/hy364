@@ -1,0 +1,118 @@
+body {
+    background-color: #5c547e; /* Set the purple background color */
+    margin: 0; /* Adjust margin to remove default spacing */
+    padding: 0; /* Adjust padding to remove default spacing */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    color: white; /* Text color inside the container */
+}
+
+#maincontainer {
+    padding: 40px; /* Example padding */
+    width: 100%; /* Cover entire width of the viewport */
+    min-height: 100vh; /* Ensure minimum height of viewport */
+    background-image: url('backgroundpage.png');
+    background-size: cover; /* Cover the entire container */
+    background-repeat: no-repeat;
+}
+
+#my-text {
+    font-family: "Futura", "Avenir Next", sans-serif;
+    font-size: 48px; /* Adjusted font size for smaller screens */
+    margin-left: 20%;
+}
+
+.navbar {
+    background-color: transparent !important; /* Remove background color */
+    border: none !important; /* Remove border */
+}
+
+.navbar-toggler {
+    border-color: white !important; /* Set border color for the toggler */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.navbar-nav {
+    flex-direction: column; /* Display links vertically */
+}
+
+.navbar-nav .nav-link {
+    color: #888; /* Gray color for the links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #555; /* Darker gray color on hover */
+}
+
+@media (max-width: 480px) {
+    #my-text {
+        font-size: 36px; /* Further reduced font size for smaller screens */
+        margin-top: 10px; /* Reset margin for small screens */
+    }
+    .navbar-toggler {
+        position: absolute;
+    }
+    .navbar-nav {
+        text-align: center; /* Center align links on small screens */
+    }
+}
+
+@media (min-width: 481px) {
+    #my-text {
+        font-size: 70px; /* Original font size for larger screens */
+    }
+    .navbar {
+        margin-left: 25%; /* Adjusted margin for larger screens */
+    }
+    #button1 {
+        font-size: 12px;
+    }
+}
+
+#firstbutton {
+    display: flex;
+    margin-left: 25%;
+    align-items: center; /* Corrected typo */
+}
+
+#button1 {
+    color: white;
+    background-color: violet;
+    height: 35px;
+    padding: 5px 20px; /* Adjusted padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+#blurry {
+    margin-left: 50%;
+    margin-top: 40px;
+}
+
+#talk {
+    margin-left: 30%;
+    margin-top: 10px;
+}
+
+#ball {
+    margin-top: 30px;
+}
+
+#rightbar{
+    margin-top: 30px;
+}
+
+#VerticalText{
+    color: white;
+    margin-top: 50px;
+    transform: rotate(90deg);
+}
+#goofy{
+    color:rgb(110, 110, 110);
+    font-size: 12px;
+}
