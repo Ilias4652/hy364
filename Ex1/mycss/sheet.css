@@ -11,8 +11,10 @@ body {
     width: 100%; /* Cover entire width of the viewport */
     min-height: 100vh; /* Ensure minimum height of viewport */
     background-image: url('backgroundpage.png');
-    background-size: cover; /* Cover the entire container */
+    background-size: cover; /* Stretch the background image to cover the entire container */
+    background-position: center; /* Center the background image horizontally */
     background-repeat: no-repeat;
+    
 }
 
 #my-text {
@@ -115,4 +117,254 @@ body {
 #goofy{
     color:rgb(110, 110, 110);
     font-size: 12px;
+}
+
+
+#companies1{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    margin-top: 20px;   
+    margin-left: 10px;
+    padding: 0 5px;
+    gap: 10px;
+}
+
+.cloud {
+    background-color: rgba(169, 169, 169, 0.5);
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: 2px 30px;/* Adjust margin to control spacing */
+}
+
+.company-logo {
+    width: 60px; /* Adjust size as needed */
+    height: 60px; /* Adjust size as needed */
+}
+
+.company-text {
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.other-companies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+#companies2{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    margin-top: 20px;   
+    margin-left: 10px;
+    padding: 0 5px;
+    gap: 10px;
+}
+#hand{
+    margin-top: 100px;
+}
+.cloud2 {
+    background-color: rgba(169, 169, 169, 0.5);
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: 2px 20px;/* Adjust margin to control spacing */
+}
+
+.company-logo2 {
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+}
+
+.company-text2 {
+    margin-left: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.other-companies2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+@media (max-width: 1042px) {
+    #companies1{
+        display: flex;
+        justify-content:  center;
+        align-items: center;
+        margin-top: 20px;   
+        margin-left: 10px;
+        padding: 0 5px;
+        gap: 10px;
+    }
+    
+    .cloud {
+        background-color: rgba(169, 169, 169, 0.5);
+        border-radius: 50px;
+        padding: 5px 10px;
+        margin: 2px 5px;/* Adjust margin to control spacing */
+    }
+    
+    .company-logo {
+        width: 15px; /* Adjust size as needed */
+        height: 15px; /* Adjust size as needed */
+    }
+    
+    .company-text {
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .other-companies {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    #companies2{
+        display: flex;
+        justify-content:  center;
+        align-items: center;
+        margin-top: 20px;   
+        margin-left: 10px;
+        padding: 0 5px;
+        gap: 10px;
+    }
+    #hand{
+        margin-top: 100px;
+    }
+    .cloud2 {
+        background-color: rgba(169, 169, 169, 0.5);
+        border-radius: 50px;
+        padding: 5px 10px;
+        margin: 2px 5px;/* Adjust margin to control spacing */
+    }
+    
+    .company-logo2 {
+        width: 15px; /* Adjust size as needed */
+        height: 15px; /* Adjust size as needed */
+    }
+    
+    .company-text2 {
+
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .other-companies2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 481px) {
+    #companies1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 5px;
+        padding: 0 3px;
+        gap: 5px;
+    }
+    
+    .cloud {
+        background-color: rgba(169, 169, 169, 0.5);
+        border-radius: 50px;
+        padding: 3px 6px;
+        margin: 1px 2px;
+    }
+    
+    .company-logo {
+        width: 10px;
+        height: 10px;
+    }
+    
+    .company-text {
+        color: white;
+        font-size: 8px;
+        font-weight: bold;
+    }
+    
+    .other-companies {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+    
+    #companies2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 5px;
+        padding: 0 3px;
+        gap: 5px;
+    }
+    
+    .cloud2 {
+        background-color: rgba(169, 169, 169, 0.5);
+        border-radius: 50px;
+        padding: 3px 6px;
+        margin: 1px 2px;
+    }
+    
+    .company-logo2 {
+        width: 10px;
+        height: 10px;
+    }
+    
+    .company-text2 {
+        color: white;
+        font-size: 8px;
+        font-weight: bold;
+    }
+    
+    .other-companies2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+}
+
+
+#mybutt{
+    background-color: #6906db;
+    margin: 2px 5px;
+}
+
+#serv{
+    font-size: 62px;
+}
+.bigcloud {
+    background-color: #240349;
+    border-radius: 50px;
+    padding: 30px;
+    margin: 20px;
+}
+
+.services {
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.company-logo2 {
+    width: 100px;
+    height: auto;
+}
+
+.mt-3 {
+    margin-top: 3rem;
+}
+
+#serv2{
+    font-size: 62px;
 }
