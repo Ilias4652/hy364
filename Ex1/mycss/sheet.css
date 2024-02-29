@@ -1,25 +1,25 @@
 body {
-    background-color: #5c547e; /* Set the purple background color */
-    margin: 0; /* Adjust margin to remove default spacing */
-    padding: 0; /* Adjust padding to remove default spacing */
+    background-color: #5c547e; 
+    margin: 0; 
+    padding: 0; 
     overflow-x: hidden; /* Prevent horizontal scrolling */
-    color: white; /* Text color inside the container */
+    color: white; 
 }
 
 #maincontainer {
-    padding: 40px; /* Example padding */
-    width: 100%; /* Cover entire width of the viewport */
+    padding: 40px; 
+    width: 100%; 
     min-height: 100vh; /* Ensure minimum height of viewport */
     background-image: url('backgroundpage.png');
-    background-size: cover; /* Stretch the background image to cover the entire container */
-    background-position: center; /* Center the background image horizontally */
+    background-size: cover; 
+    background-position: center; 
     background-repeat: no-repeat;
     
 }
 
 #my-text {
     font-family: "Futura", "Avenir Next", sans-serif;
-    font-size: 48px; /* Adjusted font size for smaller screens */
+    font-size: 48px; 
     margin-left: 20%;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .navbar-toggler {
-    border-color: white !important; /* Set border color for the toggler */
+    border-color: white !important; 
 }
 
 .navbar-toggler-icon {
@@ -37,11 +37,11 @@ body {
 }
 
 .navbar-nav {
-    flex-direction: column; /* Display links vertically */
+    flex-direction: column; 
 }
 
 .navbar-nav .nav-link {
-    color: #888; /* Gray color for the links */
+    color: #888; 
 }
 
 .navbar-nav .nav-link:hover {
@@ -50,8 +50,8 @@ body {
 
 @media (max-width: 480px) {
     #my-text {
-        font-size: 36px; /* Further reduced font size for smaller screens */
-        margin-top: 10px; /* Reset margin for small screens */
+        font-size: 36px; 
+        margin-top: 10px; 
     }
     .navbar-toggler {
         position: absolute;
@@ -63,10 +63,10 @@ body {
 
 @media (min-width: 481px) {
     #my-text {
-        font-size: 70px; /* Original font size for larger screens */
+        font-size: 70px; 
     }
     .navbar {
-        margin-left: 25%; /* Adjusted margin for larger screens */
+        margin-left: 25%; 
     }
     #button1 {
         font-size: 12px;
@@ -134,12 +134,13 @@ body {
     background-color: rgba(169, 169, 169, 0.5);
     border-radius: 50px;
     padding: 10px 20px;
-    margin: 2px 30px;/* Adjust margin to control spacing */
+    margin: 2px 30px;
+    animation: moveLeft 2s ease infinite alternate;
 }
 
 .company-logo {
-    width: 60px; /* Adjust size as needed */
-    height: 60px; /* Adjust size as needed */
+    width: 60px; 
+    height: 60px; 
 }
 
 .company-text {
@@ -170,12 +171,13 @@ body {
     background-color: rgba(169, 169, 169, 0.5);
     border-radius: 50px;
     padding: 10px 20px;
-    margin: 2px 20px;/* Adjust margin to control spacing */
+    margin: 2px 20px;
+    animation: moveRight 2s ease infinite alternate;
 }
 
 .company-logo2 {
-    width: 30px; /* Adjust size as needed */
-    height: 30px; /* Adjust size as needed */
+    width: 30px;
+    height: 30px; 
 }
 
 .company-text2 {
@@ -205,12 +207,12 @@ body {
         background-color: rgba(169, 169, 169, 0.5);
         border-radius: 50px;
         padding: 5px 10px;
-        margin: 2px 5px;/* Adjust margin to control spacing */
+        margin: 2px 5px;
     }
     
     .company-logo {
-        width: 15px; /* Adjust size as needed */
-        height: 15px; /* Adjust size as needed */
+        width: 15px; 
+        height: 15px; 
     }
     
     .company-text {
@@ -240,12 +242,12 @@ body {
         background-color: rgba(169, 169, 169, 0.5);
         border-radius: 50px;
         padding: 5px 10px;
-        margin: 2px 5px;/* Adjust margin to control spacing */
+        margin: 2px 5px;
     }
     
     .company-logo2 {
-        width: 15px; /* Adjust size as needed */
-        height: 15px; /* Adjust size as needed */
+        width: 15px;
+        height: 15px; 
     }
     
     .company-text2 {
@@ -367,4 +369,122 @@ body {
 
 #serv2{
     font-size: 62px;
+}
+.company-logo3{
+    width: 300px;
+    height: auto;
+}
+.bigcloud2 {
+    background-color: #240349;
+    border-radius: 30px; /* Adjust the border radius to make it smaller */
+    padding: 10px; /* Reduce the padding to make the border smaller */
+    margin: 10px;
+}
+
+#showhor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#serv3{
+    font-size: 42px;
+}
+#smalltext {
+    font-size: 12px;
+    max-width: 100%; /* Ensure text doesn't overflow its container */
+    margin-bottom: 20px; /* Add some space between the text and the buttons */
+}
+
+.company-logo3 {
+    max-width: 100%; 
+    height: auto; /* Maintain aspect ratio */
+    display: block; 
+    margin-top: 20px; /* Add some space between the image and the text */
+}
+#smalltext2{
+    max-width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.company-logo3 {
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure proper block-level rendering */
+    margin-top: 60px; /* Add some space between the image and the text */
+}
+
+
+.input-group {
+    width: 100%;
+}
+
+.form-control {
+    background-color: transparent;
+    border: 1px solid #ced4da; /* Add border for visibility */
+    color: #fff; 
+}
+
+.input-group-append {
+    margin-left: -1px; /* Remove gap between input field and button */
+}
+
+.btn-transparent {
+    background-color: transparent;
+    border: none;
+    color: #4b4b4b; /* Button text color */
+    cursor: pointer; /
+}
+
+.btn-transparent:hover {
+    text-decoration: underline; /* Underline the text on hover */
+}
+#mf{
+    margin-top: 20px;
+}
+
+
+.display-4 {
+    font-size: 22vw; /* Adjust the font size based on the viewport width */
+    margin: 0; /* Remove all margins */
+    padding: 0; 
+    width: 100%; 
+}
+
+@keyframes moveLeft {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+/* Define animation keyframes for moving right */
+@keyframes moveRight {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+}
+
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Apply animation to elements */
+#animation .col-md,
+#animation .cloud,
+#animation .cloud2,.text-center,
+#firstbutton,
+#navbarNav,
+#talk,
+#blurry,
+#ball,
+#fan,
+#goofy {
+    animation: slideInFromLeft 1s ease-out;
 }
